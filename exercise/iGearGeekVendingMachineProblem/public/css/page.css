@@ -1,0 +1,54 @@
+.productCard {
+    background-image: url('/images/cubeWeb.svg'); 
+    width: 26%;
+    height:30vh;
+    background-size: cover;
+}
+
+.productCardImage {
+    width: 63%; 
+    height: 18vh; 
+    border-radius: 7%; 
+    left: 19%; 
+    top: 14%;
+}
+
+.soldoutCardImage {
+    background-image: url('/images/cubeWeb.svg'); 
+    width: 26%; 
+    height:30vh; 
+    background-size: cover; 
+    pointer-events: none; 
+    cursor: default; 
+    opacity: 0.6;
+}
+
+@media (max-width: 767.98px) {
+    .productCard {
+    background-image: url('/images/cubeWeb.svg'); 
+    width: 26%;
+    height:10vh;
+    background-size: cover;
+    }
+
+    .productCardImage {
+        width: 50%; 
+        height: 10vh; 
+        border-radius: 7%; 
+        left: 19%; 
+        top: 14%;
+    }
+
+    .soldoutCardImage {
+        background-image: url('/images/cubeWeb.svg'); 
+        width: 30%; 
+        height:10vh; 
+        background-size: cover; 
+        pointer-events: none; 
+        cursor: default; 
+        opacity: 0.6;
+    }
+}
+
+
+
